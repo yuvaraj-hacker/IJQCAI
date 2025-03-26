@@ -165,14 +165,14 @@ const Header = () => {
                               <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out    ${isActive(link.to) || hoveredCategory === link.label ? '  text-white rotate-180 duration-100' : ' '} `}></i>
                             )}
                             {hoveredCategory === link.label && link.dropdown ? (
-                              <div className="absolute -bottom-[12px]   w-4 h-4  bg-[#815cbf] rotate-45  z-20 "></div>
+                              <div className="absolute -bottom-[7px]   w-4 h-4  bg-white rotate-45  z-20 "></div>
                             ) : null}
                           </Link>
                           {hoveredCategory === link.label && link.dropdown && (
-                            <div className="md:absolute left-0 top-full   w-full  bg-[#815cbf]   transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top   grid grid-cols-2 border border-black  p-3 z-10">
+                            <div className="md:absolute left-0 top--10  w-full   bg-white  transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top   grid grid-cols-2 border border-black  p-3 z-10">
                               {link.dropdown.map((dropdownlink) => (
                                 <Link key={dropdownlink.to} to={dropdownlink.to}
-                                  className="block px-4 py-2   md:text-start text-center  text-white    underline underline-offset-2  "
+                                  className="block px-4 py-2   md:text-start text-center  text-[#815cbf]   underline underline-offset-2  "
                                   onClick={() => {
                                     setHoveredCategory(null);
                                     setMenuOpen(false);
