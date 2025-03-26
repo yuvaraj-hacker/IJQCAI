@@ -7,18 +7,18 @@ function Publication() {
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className=' '>
+                                <h1 className="text-[#18025b] text-center merry  font-semibold  lg:text-2xl   text-lg ">
                                     Publication Ethics
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Advanced Trends in Robotics and Automation (IJATRA) is committed to upholding the highest ethical standards in scholarly publishing. Authors, reviewers, and editors are expected to adhere to the following principles:
+                                The International Journal of Quantum Computing and AI (IJQCAI) is committed to upholding the highest ethical standards in scholarly publishing. Authors, reviewers, and editors are expected to adhere to the following principles:
                             </p>
                         </section>
 
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b] underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Author Responsibilities
                             </h1>
 
@@ -49,7 +49,7 @@ function Publication() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b] underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Reviewer Responsibilities
                             </h1>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
@@ -75,7 +75,7 @@ function Publication() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b] underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Editorial Responsibilities
                             </h1>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
@@ -102,7 +102,7 @@ function Publication() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b] underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Handling Misconduct
                             </h1>
 

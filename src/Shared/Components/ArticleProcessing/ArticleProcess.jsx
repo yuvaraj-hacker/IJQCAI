@@ -3,21 +3,21 @@ import React from 'react'
 function ArticleProcess() {
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem] md:py-7 py-5  mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className=' '>
+                                <h1 className="text-[#18025b] text-center merry   font-semibold  lg:text-2xl   text-lg ">
                                     Article Processing
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Advanced Trends in Robotics and Automation (IJATRA) follows a structured article processing workflow to ensure timely and high-quality publication of research articles.                            </p>
+                                The International Journal of Quantum Computing and AI (IJQCAI) follows a structured article processing workflow to ensure timely and high-quality publication of research articles.                            </p>
                         </section>
 
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b] underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Submission
                             </h1>
 
@@ -33,7 +33,7 @@ function ArticleProcess() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Editorial Screening
                             </h1>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
@@ -49,7 +49,7 @@ function ArticleProcess() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b] underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Acceptance and Proofreading
                             </h1>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
@@ -65,7 +65,7 @@ function ArticleProcess() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 DOI Assignment & Online Publication
                             </h1>
 
@@ -78,13 +78,10 @@ function ArticleProcess() {
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
                                     <p className="">The article is published online and made available for indexing.</p>
                                 </div>
-
-
-
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Post-Publication
                             </h1>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>

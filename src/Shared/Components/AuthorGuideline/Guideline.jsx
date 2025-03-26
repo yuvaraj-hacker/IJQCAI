@@ -7,27 +7,24 @@ function Guideline() {
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className=' '>
+                                <h1 className="text-[#18025b]  text-center  font-semibold  merry lg:text-2xl   text-lg ">
                                     Author Guidelines
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Advanced Trends in Robotics and Automation (IJATRA) welcomes high-quality, original research contributions in the fields of robotics, automation, artificial intelligence, and related disciplines. Authors must adhere to the following guidelines when preparing and submitting their manuscripts.                            </p>
-
+                                The International Journal of Quantum Computing and AI (IJQCAI) welcomes high-quality, original research contributions in the fields of robotics, automation, artificial intelligence, and related disciplines. Authors must adhere to the following guidelines when preparing and submitting their manuscripts.                            </p>
                         </section>
-
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className=' '>
+                                <h1 className=" text-[#18025b] text-center  merry font-semibold  lg:text-2xl   text-lg ">
                                     Publishing Requirements
                                 </h1>
                             </div>
-
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className="">  Manuscripts must strictly follow the IJATRA template and adhere to proper formatting guidelines</p>
+                                    <p className="">  Manuscripts must strictly follow the IJQCAI template and adhere to proper formatting guidelines</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
@@ -57,43 +54,42 @@ function Guideline() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-4  md:text-base text-sm">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className=' '>
+                                <h1 className=" text-[#18025b] text-center merry   font-semibold  lg:text-2xl   text-lg ">
                                     Submission Process
                                 </h1>
                             </div>
                             <div className='flex flex-col gap-2'>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Initial Manuscript Screening  </span> – The editorial team evaluates submissions for scope, quality, and adherence to guidelines.</p>
+                                    <p className=""><span className='text-[#18025b] font-semibold'>Initial Manuscript Screening  </span> – The editorial team evaluates submissions for scope, quality, and adherence to guidelines.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Double-Blind Peer Review </span> – Manuscripts are reviewed by at least two independent experts to ensure scholarly integrity.</p>
+                                    <p className=""><span className='text-[#18025b] font-semibold'>Double-Blind Peer Review </span> – Manuscripts are reviewed by at least two independent experts to ensure scholarly integrity.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Author Revision Period</span> – Authors receive reviewer feedback and are provided with clear deadlines for revisions.</p>
+                                    <p className=""><span className='text-[#18025b] font-semibold'>Author Revision Period</span> – Authors receive reviewer feedback and are provided with clear deadlines for revisions.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Final Editorial Decision</span> –  The editorial board makes the final decision based on reviewer recommendations.</p>
+                                    <p className=""><span className='text-[#18025b] font-semibold'>Final Editorial Decision</span> –  The editorial board makes the final decision based on reviewer recommendations.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Publication & Licensing </span> – Articles are published under a Creative Commons license for maximum visibility.</p>
+                                    <p className=""><span className='text-[#18025b] font-semibold'>Publication & Licensing </span> – Articles are published under a Creative Commons license for maximum visibility.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>DOI Assignment  </span> –  Each article is assigned a unique DOI for permanent identification and citation.</p>
+                                    <p className=""><span className='text-[#18025b] font-semibold'>DOI Assignment  </span> –  Each article is assigned a unique DOI for permanent identification and citation.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""><span className='text-[#3e8000] font-semibold'>Digital Archiving  </span> – Published research is digitally archived to ensure long-term availability and accessibility.</p>
+                                    <p className=""><span className='text-[#18025b] font-semibold'>Digital Archiving  </span> – Published research is digitally archived to ensure long-term availability and accessibility.</p>
                                 </div>
                             </div>
                         </section>
-
                     </section>
                 </div>
             </section>

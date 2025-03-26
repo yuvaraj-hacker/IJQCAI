@@ -5,8 +5,8 @@ import HelmetComponent from '../Helmet/HelmetProvider'
 function PublicRightsPage() {
     return (
         <>
-            <HelmetComponent title="Publication Rights - International Journal of Advanced Trends in Robotics and Automation" />
-            <PublicRights />
+            <HelmetComponent title="Publication Rights - International Journal of Quantum Computing and AI" />
+            {/* <PublicRights /> */}
         </>
     )
 }

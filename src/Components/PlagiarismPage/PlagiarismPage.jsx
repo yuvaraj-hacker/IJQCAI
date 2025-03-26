@@ -5,8 +5,8 @@ import HelmetComponent from '../Helmet/HelmetProvider'
 function PlagiarismPage() {
     return (
         <>
-            <HelmetComponent title="Plagiarism - International Journal of Advanced Trends in Robotics and Automation" />
-            <Plagiarism />
+            <HelmetComponent title="Plagiarism - International Journal of Quantum Computing and AI" />
+            {/* <Plagiarism /> */}
         </>
     )
 }

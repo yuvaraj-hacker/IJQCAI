@@ -3,22 +3,22 @@ import React from 'react'
 function Abstracting() {
     return (
         <>
-            <section className="flex flex-col gap-5 max-w-[90rem] py-5  mx-auto md:px-5 px-3">
+            <section className="flex flex-col gap-5 max-w-[90rem] md:py-7 py-5 mx-auto md:px-5 px-3">
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className=' '>
+                                <h1 className="text-[#18025b]  text-center merry   font-semibold  lg:text-2xl   text-lg ">
                                     Abstracting and Indexing
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Advanced Trends in Robotics and Automation (IJATRA) is committed to ensuring the visibility and accessibility of published research. Our journal is indexed in various reputed databases to enhance the reach and impact of our articles.
+                                The International Journal of Quantum Computing and AI (IJQCAI) is committed to ensuring the visibility and accessibility of published research. Our journal is indexed in various reputed databases to enhance the reach and impact of our articles.
                             </p>
                         </section>
 
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold  text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Indexing Databases
                             </h1>
 
@@ -57,7 +57,7 @@ function Abstracting() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-2  md:text-base text-sm">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Benefits of Indexing
                             </h1>
                             <div className='flex flex-col gap-2'>

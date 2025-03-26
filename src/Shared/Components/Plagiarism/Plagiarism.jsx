@@ -7,13 +7,13 @@ function Plagiarism() {
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className=' '>
+                                <h1 className="text-[#18025b] text-center merry   font-semibold  lg:text-2xl   text-lg ">
                                     Plagiarism Policy
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Advanced Trends in Robotics and Automation (IJATRA) maintains a strict zero-tolerance policy against plagiarism. All submitted manuscripts undergo rigorous plagiarism screening to ensure academic integrity.
+                                The International Journal of Quantum Computing and AI (IJQCAI) maintains a strict zero-tolerance policy against plagiarism. All submitted manuscripts undergo rigorous plagiarism screening to ensure academic integrity.
                             </p>                        </section>
 
                         <section className="flex flex-col gap-2">

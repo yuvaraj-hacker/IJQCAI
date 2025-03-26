@@ -9,11 +9,11 @@ function Copyrights() {
                     <section className="flex flex-col gap-5">
                         <section className='grid   grid-cols-1   gap-2'>
                             <div className='flex flex-col gap-2'>
-                                <h2 className='text-[#3E8000] font-bold merry md:text-lg underline underline-offset-2'>Copyright Transfer:</h2>
+                                <h2 className='text-[#18025b] font-bold merry md:text-lg underline underline-offset-2'>Copyright Transfer:</h2>
                                 <div className='flex   gap-3'>
                                     <i className="fi fi-rr-angle-double-small-right     "></i>
 
-                                    <p className="text-justify  md:text-base text-sm">By signing this form, the author(s) transfer the copyright of the article to IJATRA, effective if and when the article is accepted for publication. The copyright transfer covers the exclusive right to reproduce and distribute the article, including reprints, translations, photographic reproductions, microform, electronic form, or any other reproductions of similar nature.</p>
+                                    <p className="text-justify  md:text-base text-sm">By signing this form, the author(s) transfer the copyright of the article to IJQCAI, effective if and when the article is accepted for publication. The copyright transfer covers the exclusive right to reproduce and distribute the article, including reprints, translations, photographic reproductions, microform, electronic form, or any other reproductions of similar nature.</p>
 
                                 </div>
                             </div>
@@ -28,19 +28,19 @@ function Copyrights() {
                                     I/We affirm that we have the authority to enter into this agreement. The article contains no unlawful or harmful content, does not violate any copyright or trademark laws, and does not infringe on the rights or privacy of others. Any factual statements presented are either true or based on reasonable research.
                                 </li>
                                 <li className="">
-                                    I/We agree to indemnify the editors of IJATRA against any claims or expenses arising from a breach of this declaration.
+                                    I/We agree to indemnify the editors of IJQCAI against any claims or expenses arising from a breach of this declaration.
                                 </li>
                             </ol>
 
                         </section>
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className=' '>
+                                <h1 className="  text-center merry  text-[#18025b] font-semibold  lg:text-2xl   text-lg ">
                                     Declaration
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                I/We ____________________________, the author(s) of the research paper/article entitled ______________________, hereby grant permission for the publication of the above-mentioned paper/article in IJATRA (International Journal of Advanced Trends in Robotics and Automation).
+                                I/We ____________________________, the author(s) of the research paper/article entitled ______________________, hereby grant permission for the publication of the above-mentioned paper/article in IJQCAI (International Journal of Quantum Computing and AI).
                             </p>
                             <p className="text-justify md:text-base text-sm">
                                 <p className=""> It is agreed that :</p>
@@ -54,7 +54,7 @@ function Copyrights() {
                                         I/We affirm that we have the authority to enter into this agreement. The article contains no unlawful or harmful content, does not violate any copyright or trademark laws, and does not infringe on the rights or privacy of others. Any factual statements presented are either true or based on reasonable research.
                                     </li>
                                     <li className="">
-                                        I/We agree to indemnify the editors of IJATRA against any claims or expenses arising from a breach of this declaration.
+                                        I/We agree to indemnify the editors of IJQCAI against any claims or expenses arising from a breach of this declaration.
                                     </li>
                                 </ol>
                             </p>

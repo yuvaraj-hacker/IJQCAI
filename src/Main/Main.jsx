@@ -62,7 +62,7 @@ const Main = () => {
       </div>
 
       {showScroll && (
-        <button onClick={scrollToTop} className="fixed bottom-5 right-5 bg-white  text-[#3E8000] cursor-pointer border font-bold border-[#3E8000] p-3 rounded-full shadow-lg transition-opacity hover:bg-opacity-80"
+        <button onClick={scrollToTop} className="fixed bottom-5 right-5 bg-white  text-[#18025b] cursor-pointer border font-bold border-[#18025b] p-3 rounded-full shadow-lg transition-opacity hover:bg-opacity-80"
         >
           <IoIosArrowUp className="md:text-xl" />
         </button>

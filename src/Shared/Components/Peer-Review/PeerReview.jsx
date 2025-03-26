@@ -7,37 +7,26 @@ function PeerReview() {
                 <div className="  relative">
                     <section className="flex flex-col gap-5">
                         <section className="flex flex-col gap-4">
-                            <div className='p-0.5 border border-[#3e8000]'>
-                                <h1 className="bg-primary text-white text-center merry shadow md:p-3 p-2 font-semibold  lg:text-2xl   text-lg ">
+                            <div className=' '>
+                                <h1 className=" text-[#18025b] text-center merry  font-semibold  lg:text-2xl   text-lg ">
                                     Peer Review Process
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Advanced Trends in Robotics and Automation (IJATRA) follows a rigorous peer review process to maintain the highest standards of academic excellence and research integrity.                            </p>
-
+                                The International Journal of Quantum Computing and AI (IJQCAI) upholds the highest standards of academic excellence and research integrity through a rigorous peer-review process, ensuring the publication of high-quality, impactful research in quantum computing and AI.
+                            </p>
                         </section>
 
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Initial Screening
                             </h1>
-
-                            <div className='flex flex-col gap-2  md:text-base text-sm'>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className=""> Upon submission, the editorial team conducts a preliminary review to ensure the manuscript aligns with the journal’s scope and formatting guidelines.</p>
-                                </div>
-                                <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
-                                    <p className="">Submissions that do not meet the basic requirements may be returned to the authors for modifications.</p>
-                                </div>
-
-
-
-                            </div>
+                            <p className="text-justify md:text-base text-sm">
+                            Upon submission, the editorial team reviews manuscripts for alignment with the journal’s scope and formatting guidelines. Submissions that do not meet basic requirements may be returned for revisions.
+                            </p>
                         </section>
                         <section className="flex flex-col gap-2 ">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Double-Blind Peer Review
                             </h1>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
@@ -55,7 +44,8 @@ function PeerReview() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold
+text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Author Revisions
                             </h1>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
@@ -73,7 +63,8 @@ function PeerReview() {
                             </div>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold
+text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Editorial Decision
                             </h1>
                             <p className="text-justify md:text-base text-sm">
@@ -100,7 +91,8 @@ function PeerReview() {
                             </p>
                         </section>
                         <section className="flex flex-col gap-2">
-                            <h1 className="    merry   font-semibold text-[#719465]  underline underline-offset-2 lg:text-2xl   text-lg ">
+                            <h1 className="    merry   font-semibold
+text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                                 Final Proof & Publication
                             </h1>
 

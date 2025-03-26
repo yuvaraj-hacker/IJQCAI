@@ -123,22 +123,73 @@ const Header = () => {
 
   return (
     <>
-      <section className="bg-primary">
-        <div className="max-w-[90rem] mx-auto md:px-5 px-3 bg-primary ">
+      <section className="bg-[#18025b]">
+        <div className="max-w-[90rem] mx-auto md:px-5 px-3 bg-[#18025b] ">
           <div className="flex items-center justify-between   lg:gap-0  gap-5  ">
             <Link to="/">
               <div className="  w-[200px]   ">
-                <div className="bg-white  p-0.5  border border-black  text-center   ">
-                  {/* <p className="  border p-4 px-7 font-bold text-[#3E8000]" >IJATRA</p> */}
-                  <img className=" border p-2 font-bold text-[#3E8000]" src="/assets/Images/IJARTA-New.png" alt="" />
+                <div className="bg-white  text-center   ">
+                  <p className="    p-4 px-7 font-bold text-[#815cbf]" >Journal</p>
+                  {/* <img className=" border p-2 font-bold text-[#3E8000]" src="/assets/Images/IJARTA-New.png" alt="" /> */}
                 </div>
               </div>
             </Link>
-            <div className="md:block hidden xl:text-2xl text-xl   merry">
-              International Journal of Advanced Trends in Robotics and Automation
-            </div>
-            <div>
-            </div>
+            {/* <div className="md:block hidden xl:text-2xl text-xl   merry">
+              International Journal of Quantum Computing and AI
+            </div> */}
+            <section className={`  relative  lg:block hidden  ${menuOpen ? " block" : " md:block hidden"}`}>
+              <header className="max-w-[90rem] mx-auto    ">
+                <div className="flex justify-center md:justify-between items-center py-1">
+                  <nav ref={dropdownRef}>
+                    <div className={`space-x-3 md:block max-w-[65rem] mx-auto    ${menuOpen ? "flex flex-col space-y-4" : " "}`}>
+                      {navLinks.map((link) => (
+                        <div key={link.to} className="  inline-block group"
+                          // onMouseEnter={() => handleMouseEnter(link.label)}
+                          // onMouseLeave={handleMouseLeave}
+                          onMouseEnter={() => window.innerWidth >= 768 && handleMouseEnter(link.label)}
+                          onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}
+                        >
+                          <Link to={link.to}
+                            className={`      p-2 flex   transition-all duration-300 ease-in-out    lg:text-base md:text-sm justify-center items-center    gap-2 ${isActive(link.to) || hoveredCategory === link.label ? '' : 'border-transparent'} `}
+                            onClick={(e) => {
+                              if (link.dropdown) {
+                                e.preventDefault();
+                                setHoveredCategory((prev) => (prev === link.label ? null : link.label));
+                              } else {
+                                setMenuOpen(false);
+                              }
+                            }}
+                          >
+                            {link.label}
+                            {link.dropdown && (
+                              <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out    ${isActive(link.to) || hoveredCategory === link.label ? '  text-white rotate-180 duration-100' : ' '} `}></i>
+                            )}
+                            {hoveredCategory === link.label && link.dropdown ? (
+                              <div className="absolute -bottom-[12px]   w-4 h-4  bg-[#815cbf] rotate-45  z-20 "></div>
+                            ) : null}
+                          </Link>
+                          {hoveredCategory === link.label && link.dropdown && (
+                            <div className="md:absolute left-0 top-full   w-full  bg-[#815cbf]   transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top   grid grid-cols-2 border border-black  p-3 z-10">
+                              {link.dropdown.map((dropdownlink) => (
+                                <Link key={dropdownlink.to} to={dropdownlink.to}
+                                  className="block px-4 py-2   md:text-start text-center  text-white    underline underline-offset-2  "
+                                  onClick={() => {
+                                    setHoveredCategory(null);
+                                    setMenuOpen(false);
+                                  }}  >
+                                  {dropdownlink.label}
+                                </Link>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  </nav>
+                </div>
+              </header>
+            </section>
+
             <div className="md:hidden block">
               <Hamburger toggled={menuOpen} toggle={setMenuOpen} />
             </div>
@@ -175,22 +226,19 @@ const Header = () => {
           </div>
         )}
       </div> */}
-      <section className={`md:bg-white border-[#3E8000] border  ${menuOpen ? " block" : " md:block hidden"}`}>
-        <header className="max-w-[90rem] mx-auto px-5 bg-white ">
+      <section className={`  relative  md:hidden block bg-white text-[#18025b] ${menuOpen ? " block" : " md:block hidden"}`}>
+        <header className="max-w-[90rem] mx-auto    ">
           <div className="flex justify-center md:justify-between items-center py-1">
             <nav ref={dropdownRef}>
-              <div className={`space-x-1 md:block max-w-[65rem] mx-auto relative  ${menuOpen ? "flex flex-col space-y-4" : " "}`}>
+              <div className={`space-x-3 md:block max-w-[65rem] mx-auto    ${menuOpen ? "flex flex-col space-y-4" : " "}`}>
                 {navLinks.map((link) => (
-                  <div
-                    key={link.to}
-                    className="  inline-block group"
+                  <div key={link.to} className="  inline-block group"
                     // onMouseEnter={() => handleMouseEnter(link.label)}
                     // onMouseLeave={handleMouseLeave}
                     onMouseEnter={() => window.innerWidth >= 768 && handleMouseEnter(link.label)}
-                    onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}
-                  >
+                    onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}  >
                     <Link to={link.to}
-                      className={` md:border border-[#3E8000] text-[#3E8000]   p-2 flex lg:w-[144px]  transition-all duration-300 ease-in-out    lg:text-base md:text-sm justify-center items-center    gap-2 ${isActive(link.to) || hoveredCategory === link.label ? 'md:bg-[#3E8000] text-[#3E8000] md:text-white' : 'bg-white'} `}
+                      className={`      p-2 flex   transition-all duration-300 ease-in-out    lg:text-base md:text-sm justify-center items-center    gap-2 ${isActive(link.to) || hoveredCategory === link.label ? '' : 'border-transparent'} `}
                       onClick={(e) => {
                         if (link.dropdown) {
                           e.preventDefault();
@@ -198,25 +246,24 @@ const Header = () => {
                         } else {
                           setMenuOpen(false);
                         }
-                      }}
-                    >
+                      }}  >
                       {link.label}
                       {link.dropdown && (
-                        <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out  text-[#3E8000] ${isActive(link.to) || hoveredCategory === link.label ? 'bg-[#3E8000] text-white rotate-180 duration-100' : ' '} `}></i>
+                        <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out    ${isActive(link.to) || hoveredCategory === link.label ? 'bg-[#3E8000] text-white rotate-180 duration-100' : ' '} `}></i>
                       )}
+                      {hoveredCategory === link.label && link.dropdown ? (
+                        <div className="absolute -bottom-[12px]   w-4 h-4  bg-[#815cbf] rotate-45  z-20 "></div>
+                      ) : null}
                     </Link>
                     {hoveredCategory === link.label && link.dropdown && (
-                      <div className="md:absolute left-0 top-full   w-full md:bg-white  border-[#3E8000]  transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top  grid md:grid-cols-2 border p-3 z-10">
+                      <div className="md:absolute left-0 top-full   w-full  bg-[#815cbf]   transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top   grid grid-cols-1 border border-black  p-3 z-10">
                         {link.dropdown.map((dropdownlink) => (
-                          <Link
-                            key={dropdownlink.to}
-                            to={dropdownlink.to}
-                            className="block px-4 py-2 md:text-[#3e8000]  md:text-start text-center    underline underline-offset-2 text-[#3E8000]"
+                          <Link key={dropdownlink.to} to={dropdownlink.to}
+                            className="block px-4 py-2   md:text-start text-center  text-white    underline underline-offset-2  "
                             onClick={() => {
                               setHoveredCategory(null);
                               setMenuOpen(false);
-                            }}
-                          >
+                            }}  >
                             {dropdownlink.label}
                           </Link>
                         ))}

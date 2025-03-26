@@ -5,8 +5,8 @@ import HelmetComponent from '../Helmet/HelmetProvider'
 function CorrectionPage() {
     return (
         <>
-            <HelmetComponent title="Correction - International Journal of Advanced Trends in Robotics and Automation" />
-            <Correction />
+            <HelmetComponent title="Correction - International Journal of Quantum Computing and AI" />
+            {/* <Correction /> */}
         </>
 
     )
