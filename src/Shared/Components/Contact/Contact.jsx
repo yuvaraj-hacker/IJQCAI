@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { FaDatabase, FaPhone } from 'react-icons/fa'
 
 function Contact() {
     return (
@@ -9,7 +10,7 @@ function Contact() {
                     <div className="max-w-full w-full ">
                         <div className="lg:max-w-3xl max-w-xl w-full mx-auto  ">
                             <div className="  :bg-gray-900 lg:px-20   md:px-5  ">
-                                <div className="    mx-auto max-w-screen-md bg-white    border-[#18025b] rounded-lg border md:p-6  p-3 ">
+                                <div className="    mx-auto max-w-screen-md bg-white   relative  border-[#18025b] overflow-hidden rounded-tr-none rounded-lg border md:p-6  p-3 ">
                                     <div className=' '>
                                         <h1 className=" text-[#18025b] text-center merry   font-semibold  lg:text-2xl   text-lg ">
                                             Contact
@@ -50,11 +51,14 @@ function Contact() {
                                             ></textarea>
                                         </div>
                                         <div className="text-center ">
-                                            <button type="submit" className="py-3 px-5 text-sm bg-[#18025b] cursor-pointer text-center   hover:text-primary-blue-color hover:border border text-white   bg-primary-red-color sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300    " >
+                                            <button type="submit" className="py-3 px-5 text-sm text-[#18025b] bg-white  cursor-pointer text-center  rounded-full  hover:text-primary-blue-color hover:border border   bg-primary-red-color sm:w-fit hover:bg-primary-800  focus:outline-none     " >
                                                 Send message
                                             </button>
                                         </div>
                                     </form>
+                                    <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
+                                        <FaPhone  className="text-white mt-6  rotate-320 md:text-xl relative right-4  " />
+                                    </div>
                                 </div>
                                 <h3 className="mt-5 text-center text-sm md:text-lg">
                                     {" "}

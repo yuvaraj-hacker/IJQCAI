@@ -119,7 +119,7 @@ function Home() {
               <section className="flex flex-col gap-4 md:mt-3 mt-1 ">
                 <div className=' '>
                   <h1 className="  text-center merry  text-[#04004a] font-semibold  lg:text-2xl   text-lg ">
-                    The Journal covers following areas :
+                    The Journal covers following areas
                   </h1>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3 md:gap-3 gap-2 ">

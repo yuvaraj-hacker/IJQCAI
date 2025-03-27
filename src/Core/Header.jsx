@@ -128,9 +128,9 @@ const Header = () => {
           <div className="flex items-center justify-between   lg:gap-0  gap-5  ">
             <Link to="/">
               <div className="  w-[200px] ">
-                <div className="   text-center   bg-white">
+                <div className="   text-center ">
                   {/* <p className="    p-4 px-7 font-bold    text-[#18025b] " >IJQCAI</p> */}
-                  <img className=" p-2 font-bold  " src="/assets/Images/IJQCAI - C.png" alt="" />
+                  <img className=" py-2 font-bold  " src="/assets/Images/IJQCAI.png" alt="" />
                 </div>
               </div>
             </Link>
@@ -161,7 +161,7 @@ const Header = () => {
                           >
                             {link.label}
                             {link.dropdown && (
-                              <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out    ${isActive(link.to) || hoveredCategory === link.label ? '  text-white rotate-180 duration-100' : ' '} `}></i>
+                              <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out    ${ hoveredCategory === link.label ? '  text-white rotate-180 duration-100' : '  '} `}></i>
                             )}
                             {hoveredCategory === link.label && link.dropdown ? (
                               <div className="absolute -bottom-[7px]   w-4 h-4  bg-white rotate-45  z-20 "></div>
