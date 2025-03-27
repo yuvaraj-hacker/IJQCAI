@@ -128,10 +128,10 @@ const Header = () => {
           <div className="flex items-center justify-between   lg:gap-0  gap-5  ">
             <Link to="/">
               <div className="  w-[200px] ">
-                <div className="   text-center   bg-[#18025b]">
-                  <p className="    p-4 px-7 font-bold text-white  " >IJQCAI</p>
-                  {/* <img className=" border p-2 font-bold text-[#3E8000]" src="/assets/Images/IJARTA-New.png" alt="" /> */}
-                 </div>
+                <div className="   text-center   bg-white">
+                  {/* <p className="    p-4 px-7 font-bold    text-[#18025b] " >IJQCAI</p> */}
+                  <img className=" p-2 font-bold  " src="/assets/Images/IJQCAI - C.png" alt="" />
+                </div>
               </div>
             </Link>
             {/* <div className="md:block hidden xl:text-2xl text-xl   merry">
@@ -248,17 +248,15 @@ const Header = () => {
                       }}  >
                       {link.label}
                       {link.dropdown && (
-                        <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out    ${isActive(link.to) || hoveredCategory === link.label ? 'bg-[#3E8000] text-white rotate-180 duration-100' : ' '} `}></i>
+                        <i className={`fi fi-rr-caret-down flex items-center  transition-all duration-300 ease-in-out    ${isActive(link.to) || hoveredCategory === link.label ? '  rotate-180 duration-100' : ' '} `}></i>
                       )}
-                      {hoveredCategory === link.label && link.dropdown ? (
-                        <div className="absolute -bottom-[12px]   w-4 h-4  bg-[#815cbf] rotate-45  z-20 "></div>
-                      ) : null}
+
                     </Link>
                     {hoveredCategory === link.label && link.dropdown && (
-                      <div className="md:absolute left-0 top-full   w-full  bg-[#815cbf]   transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top   grid grid-cols-1 border border-black  p-3 z-10">
+                      <div className="md:absolute left-0 top-full   w-full   border-[#815cbf]   transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top   grid grid-cols-1 border   p-3 z-10">
                         {link.dropdown.map((dropdownlink) => (
                           <Link key={dropdownlink.to} to={dropdownlink.to}
-                            className="block px-4 py-2   md:text-start text-center  text-white    underline underline-offset-2  "
+                            className="block px-4 py-2   md:text-start text-center text-[#815cbf]     underline underline-offset-2  "
                             onClick={() => {
                               setHoveredCategory(null);
                               setMenuOpen(false);

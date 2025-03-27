@@ -74,36 +74,39 @@ function AimandScope() {
                         </section>
 
                         <section className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  md:gap-10 gap-5'>
-                            <div className='flex flex-col gap-2 border-l-4 relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg md:p-4  p-3'>
+                            <div className='flex flex-col gap-2 border-l-4 relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg rounded-tr-none md:p-4 md:pr-5   p-3'>
                                 <h2 className='text-[#18025b] font-bold merry md:text-lg underline underline-offset-2'>Innovation</h2>
                                 <div className='flex   gap-3'>
-                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]     "></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]    mt-1  "></i>
                                     <p className="text-justify  md:text-base text-sm">Advancing pioneering ideas and groundbreaking research in quantum computing and artificial intelligence to drive transformative technological progress.
 
                                     </p>
                                 </div>
-                                <div className="bg-[#18025b] w-20 h-20 absolute -top-10 -right-10 rotate-45 flex justify-center items-center ">
-                                    <FaLightbulb className="text-white mt-10 -rotate-45" />
+
+                                <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
+                                    <FaLightbulb className="text-white mt-6  rotate-320 md:text-xl relative right-4  " />
                                 </div>
                             </div>
-                            <div className='flex flex-col gap-2  border-l-4  relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg md:p-4  p-3'>
+                            <div className='flex flex-col gap-2  border-l-4  relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg  rounded-tr-none md:p-4 md:pr-5   p-3'>
                                 <h2 className='text-[#18025b] font-bold merry md:text-lg  underline underline-offset-2'>Collaboration</h2>
                                 <div className='flex   gap-3'>
-                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]     "></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]    mt-1  "></i>
                                     <p className="text-justify  md:text-base text-sm"> Fostering synergy between researchers, academia, and industry to accelerate advancements in quantum-AI integration and emerging technologies.</p>
                                 </div>
-                                <div className="bg-[#18025b] w-20 h-20 absolute -top-10 -right-10 rotate-45 flex justify-center items-center ">
-                                    <FaHandshake className="text-white mt-10 -rotate-45" />
+                                <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
+                                    <FaHandshake className="text-white mt-6  rotate-320 md:text-xl relative right-4  " />
                                 </div>
                             </div>
-                            <div className='flex flex-col gap-2 border-l-4  relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg md:p-4  p-3'>
+                            <div className='flex flex-col gap-2 border-l-4  relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg rounded-tr-none md:p-4 md:pr-5   p-3'>
                                 <h2 className='text-[#18025b] font-bold merry md:text-lg  underline underline-offset-2' >Research Excellence</h2>
                                 <div className='flex   gap-3'>
-                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]     "></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]  mt-1   "></i>
                                     <p className="text-justify  md:text-base text-sm"> Upholding high academic standards by publishing original, high-impact research, pushing the frontiers of quantum computing and AI.</p>
                                 </div>
-                                <div className="bg-[#18025b] w-20 h-20 absolute -top-10 -right-10 rotate-45 flex justify-center items-center ">
-                                    <FaMicroscope className="text-white mt-10 -rotate-45" />
+
+
+                                <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
+                                    <FaMicroscope className="text-white mt-6  rotate-320 md:text-xl relative right-4  " />
                                 </div>
                             </div>
                         </section>

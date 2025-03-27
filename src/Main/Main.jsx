@@ -56,8 +56,7 @@ const Main = () => {
       } else {
         setShowScroll(false);
       }
-    };
-
+    };  
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -65,15 +64,11 @@ const Main = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
   const isHomePage = location.pathname === "/";
   return (
     <>
-      <div   ref={headerRef}
-      className={`fixed top-0 w-full z-50 text-white transition-colors duration-300 ${
-        isHomePage ? (scrolled ? "bg-[#18025b]" : "bg-transparent") : "bg-[#18025b]"
-
-      }`}  >
+      <div ref={headerRef}
+        className={`fixed top-0 w-full z-50 text-white transition-colors duration-300  ${isHomePage ? (scrolled ? "bg-[#18025b]" : "bg-transparent") : "bg-[#18025b]"}`}  >
         <Header />
       </div>
       <main ref={mainRef} className=" " style={{ marginTop: isHomePage ? "0px" : `${headerHeight}px` }} >

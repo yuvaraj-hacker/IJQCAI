@@ -9,7 +9,7 @@ const Footer = () => {
           <div className='text-center md:text-left flex flex-col gap-4 justify-between'>
             <Link to='/'>
               {/* <p className=" font-bold md:text-2xl ">IJQCAI</p> */}
-              <img className='bg-white p-2 w-40 md:mx-0   mx-auto' src="/assets/Images/IJQCAI.png" alt="" />
+              <img className='bg-white p-2 w-40 md:mx-0   mx-auto' src="/assets/Images/IJQCAI - C.png" alt="" />
             </Link>
             <div className='flex flex-col justify-center md:items-start items-center md:text-left lg:text-base text-sm'>
               <div className='flex gap-3 items-center'>
@@ -63,11 +63,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h1 className="bg-slate-300 h-[1px] max-w-[92rem] mx-auto  "></h1>
-      <div className='grid lg:grid-cols-3 grid-cols-1  items-center  gap-2  py-3'>
+      <h1 className="bg-white h-[1px] max-w-[92rem] mx-auto  "></h1>
+      <div className='grid lg:grid-cols-3 grid-cols-1  items-center  gap-2  md:py-3 md:pb-3 pb-2'>
         <div>
         </div>
-        <div className="text-center    ">
+        <div className="text-center   md:text-base text-xs  ">
           <p>© 2025 <span className='hover:underline' > <Link to="/" target='_blank'>IJQCAI</Link> </span> . All Rights Reserved.</p>
         </div>
       </div>
