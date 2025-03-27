@@ -13,7 +13,8 @@ function MalPractice() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                International Journal advanced trends in Robotics and Automation maintains high standards of publication ethics and takes stringent measures against publication malpractices. This policy follows the Code of Conduct and Best Practice Guidelines for Journal Editors.                            </p>                        </section>
+
+International Journal of Quantum Computing and AI maintains high standards of publication ethics and takes stringent measures against publication malpractices. This policy follows the Code of Conduct and Best Practice Guidelines for Journal Editors.                            </p>                        </section>
 
                         <section className="flex flex-col gap-2">
                             <h1 className="    merry   font-semibold text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">

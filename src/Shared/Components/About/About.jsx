@@ -8,7 +8,12 @@ function About() {
         <div className="  relative">
           <section className="flex flex-col gap-5">
             <section className="flex justify-between flex-wrap md:flex-nowrap gap-5">
-              <div className="flex flex-col justify-evenly">
+              <div className="flex flex-col gap-4 ">
+                <div className=' '>
+                  <h1 className="  text-center merry text-[#18025b] font-semibold  lg:text-2xl   text-lg ">
+                    About Us
+                  </h1>
+                </div>
                 <p className="text-justify md:text-base text-sm">
                   The International Journal of Quantum Computing and AI (IJQCAI) is a peer-reviewed, open-access journal dedicated to advancing research at the intersection of quantum computing and artificial intelligence. It publishes high-quality studies on quantum machine learning, quantum algorithms, AI-driven quantum computing applications, and related interdisciplinary fields. IJQCAI aims to foster innovation, facilitate global collaboration, and bridge the gap between theoretical advancements and real-world applications in quantum AI.                </p>
               </div>
@@ -104,7 +109,7 @@ function About() {
                   <p className="text-justify  md:text-base text-sm">IJQCAI is committed to advancing research on a global scale, fostering collaboration among scientists, academicians, and industry professionals worldwide. With open-access publications and a diverse readership spanning multiple disciplines, IJQCAI ensures that groundbreaking discoveries in quantum computing and AI reach a broad audience, driving innovation and real-world applications across industries.</p>
                 </div>
                 <div className="bg-[#18025b] w-20 h-20 absolute -top-10 -right-10 rotate-45 flex justify-center items-center ">
-                  <FaGlobe  className="text-white mt-10 -rotate-45" />
+                  <FaGlobe className="text-white mt-10 -rotate-45" />
                 </div>
               </div>
               <div className='flex flex-col gap-2 border-l-4 relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg md:p-4  p-3'>
@@ -114,7 +119,7 @@ function About() {
                   <p className="text-justify  md:text-base text-sm">The International Journal of Quantum Computing and AI (IJQCAI) upholds the highest ethical standards in academic publishing. We adhere to strict guidelines to ensure integrity, transparency, and fairness in all aspects of the publication process. Our policies prohibit plagiarism, data fabrication, and unethical research practices.</p>
                 </div>
                 <div className="bg-[#18025b] w-20 h-20 absolute -top-10 -right-10 rotate-45 flex justify-center items-center ">
-                  <FaBalanceScale  className="text-white mt-10 -rotate-45" />
+                  <FaBalanceScale className="text-white mt-10 -rotate-45" />
                 </div>
               </div>
             </section>

@@ -11,11 +11,10 @@ function Home() {
       <section className=" flex flex-col gap-5       " >
         <div className="  relative">
           <section className="flex flex-col md:gap-7 gap-5">
-            <div>
+            <div className="md:gap-4 flex flex-col  ">
               <section className="relative bg-[url('/assets/Images/ai.jpg')] bg-no-repeat bg-cover bg-center">
                 {/* Overlay (Only Covers Background) */}
-                <div className="absolute inset-0 bg-[#18025b] opacity-30 z-0"></div>
-
+                <div className="absolute inset-0 bg-[#18025b] opacity-50 z-0"></div>
                 {/* Content (Ensure It Stays Above Overlay) */}
                 <section className="relative z-10 flex justify-between flex-wrap md:flex-nowrap gap-5 max-w-[90rem] md:px-5 px-3 mx-auto">
                   {/* <img className="mx-auto w-96" src="/assets/Images/ai.jpg" alt="" /> */}
