@@ -6,7 +6,7 @@ function PlagiarismPage() {
     return (
         <>
             <HelmetComponent title="Plagiarism - International Journal of Quantum Computing and AI" />
-            {/* <Plagiarism /> */}
+            <Plagiarism />
         </>
     )
 }

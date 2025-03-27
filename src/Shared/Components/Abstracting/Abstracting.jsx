@@ -24,31 +24,31 @@ function Abstracting() {
 
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""> Google Scholar</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Scopus (under evaluation)</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">DOAJ (Directory of Open Access Journals)</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">CrossRef (DOI Assignment for published articles)</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">ResearchGate</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Semantic Scholar</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">BASE (Bielefeld Academic Search Engine)</p>
                                 </div>
 
@@ -62,15 +62,15 @@ function Abstracting() {
                             </h1>
                             <div className='flex flex-col gap-2'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Increased discoverability and citation potential.   </p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Global accessibility to researchers, scholars, and industry professionals.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Enhanced credibility and recognition within the academic community.</p>
                                 </div>
 

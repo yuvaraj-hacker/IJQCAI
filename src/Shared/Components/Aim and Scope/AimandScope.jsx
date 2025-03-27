@@ -39,31 +39,31 @@ function AimandScope() {
                             </p>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Quantum Machine Learning</span> – Development of quantum-enhanced machine learning and deep learning models.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Quantum Algorithms for AI </span> –Designing novel quantum algorithms to improve AI performance and efficiency.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Quantum Neural Networks</span> – Exploring neural networks within the quantum computing framework.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>AI-Driven Quantum Computing</span> – Applications of AI in quantum error correction, optimization, and circuit design.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Quantum Data Science</span> – Techniques for quantum data processing, pattern recognition, and analytics.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Hybrid Quantum-Classical Computing </span> – Integration of classical AI models with quantum computing techniques.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Applications of Quantum AI</span> – Real-world use cases in cryptography, optimization, financial modeling, and material science.</p>
                                 </div>
 
@@ -77,7 +77,7 @@ function AimandScope() {
                             <div className='flex flex-col gap-2 border-l-4 relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg md:p-4  p-3'>
                                 <h2 className='text-[#18025b] font-bold merry md:text-lg underline underline-offset-2'>Innovation</h2>
                                 <div className='flex   gap-3'>
-                                    <i className="fi fi-rr-angle-double-small-right     "></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]     "></i>
                                     <p className="text-justify  md:text-base text-sm">Advancing pioneering ideas and groundbreaking research in quantum computing and artificial intelligence to drive transformative technological progress.
 
                                     </p>
@@ -89,7 +89,7 @@ function AimandScope() {
                             <div className='flex flex-col gap-2  border-l-4  relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg md:p-4  p-3'>
                                 <h2 className='text-[#18025b] font-bold merry md:text-lg  underline underline-offset-2'>Collaboration</h2>
                                 <div className='flex   gap-3'>
-                                    <i className="fi fi-rr-angle-double-small-right     "></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]     "></i>
                                     <p className="text-justify  md:text-base text-sm"> Fostering synergy between researchers, academia, and industry to accelerate advancements in quantum-AI integration and emerging technologies.</p>
                                 </div>
                                 <div className="bg-[#18025b] w-20 h-20 absolute -top-10 -right-10 rotate-45 flex justify-center items-center ">
@@ -99,7 +99,7 @@ function AimandScope() {
                             <div className='flex flex-col gap-2 border-l-4  relative overflow-hidden border-l-[#18025b] border border-[#18025b] rounded-lg md:p-4  p-3'>
                                 <h2 className='text-[#18025b] font-bold merry md:text-lg  underline underline-offset-2' >Research Excellence</h2>
                                 <div className='flex   gap-3'>
-                                    <i className="fi fi-rr-angle-double-small-right     "></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]     "></i>
                                     <p className="text-justify  md:text-base text-sm"> Upholding high academic standards by publishing original, high-impact research, pushing the frontiers of quantum computing and AI.</p>
                                 </div>
                                 <div className="bg-[#18025b] w-20 h-20 absolute -top-10 -right-10 rotate-45 flex justify-center items-center ">

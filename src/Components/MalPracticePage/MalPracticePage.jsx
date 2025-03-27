@@ -6,7 +6,7 @@ function MalPracticePage() {
     return (
         <>
             <HelmetComponent title="Malpractice - International Journal of Quantum Computing and AI" />
-            {/* <MalPractice /> */}
+            <MalPractice />
         </>
     )
 }

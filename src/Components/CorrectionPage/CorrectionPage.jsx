@@ -6,7 +6,7 @@ function CorrectionPage() {
     return (
         <>
             <HelmetComponent title="Correction - International Journal of Quantum Computing and AI" />
-            {/* <Correction /> */}
+            <Correction />
         </>
 
     )

@@ -23,31 +23,31 @@ function Guideline() {
                             </div>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">  Manuscripts must strictly follow the IJQCAI template and adhere to proper formatting guidelines</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""> Abstracts should be between 200–1000 characters, structured clearly with concise objectives, methodology, and findings.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""> Include 3 to 8 keywords to enhance indexing and searchability.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""> References must comply with the IEEE/APA citation style, ensuring consistency and accuracy.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">  Maintain proper grammar, spelling, and formal academic English throughout the manuscript.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""> All figures and tables must have descriptive captions and be appropriately referenced in the text.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""> Ethical approval statements must be provided where applicable, particularly for studies involving human or animal subjects.</p>
                                 </div>
 
@@ -61,31 +61,31 @@ function Guideline() {
                             </div>
                             <div className='flex flex-col gap-2'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Initial Manuscript Screening  </span> – The editorial team evaluates submissions for scope, quality, and adherence to guidelines.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Double-Blind Peer Review </span> – Manuscripts are reviewed by at least two independent experts to ensure scholarly integrity.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Author Revision Period</span> – Authors receive reviewer feedback and are provided with clear deadlines for revisions.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Final Editorial Decision</span> –  The editorial board makes the final decision based on reviewer recommendations.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Publication & Licensing </span> – Articles are published under a Creative Commons license for maximum visibility.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>DOI Assignment  </span> –  Each article is assigned a unique DOI for permanent identification and citation.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className=""><span className='text-[#18025b] font-semibold'>Digital Archiving  </span> – Published research is digitally archived to ensure long-term availability and accessibility.</p>
                                 </div>
                             </div>

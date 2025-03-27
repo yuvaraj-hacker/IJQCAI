@@ -31,11 +31,11 @@ function PeerReview() {
                             </h1>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Manuscripts passing the initial screening are sent to at least two independent reviewers for evaluation.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">The identities of both the authors and reviewers remain anonymous to ensure unbiased assessments.</p>
                                 </div>
 
@@ -50,11 +50,11 @@ text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                             </h1>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Based on reviewer feedback, authors may be requested to revise their manuscript.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">A revised version must be submitted within the specified deadline, with a detailed response addressing the reviewers' comments.</p>
                                 </div>
 
@@ -72,15 +72,15 @@ text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
                             </p>
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Accepted: The manuscript is approved for publication.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Minor/Major Revisions: The author must make necessary changes before acceptance.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Rejected: The manuscript does not meet the journal's standards.</p>
                                 </div>
 
@@ -98,11 +98,11 @@ text-[#18025b]  underline underline-offset-2 lg:text-2xl   text-lg ">
 
                             <div className='flex flex-col gap-2  md:text-base text-sm'>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">Once accepted, authors receive a final proof for approval before publication.</p>
                                 </div>
                                 <div className='flex items-center gap-2'>
-                                    <i className="fi fi-rr-angle-double-small-right   flex items-center"></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
                                     <p className="">The article is published in the upcoming issue and indexed accordingly.</p>
                                 </div>
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Header from "../Core/Header";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Footer from "../Core/Footer";
 import { IoIosArrowUp } from "react-icons/io";
 
@@ -9,6 +9,22 @@ const Main = () => {
   const headerRef = useRef(null); // Ref for the Header
   const mainRef = useRef(null); // Ref for the main content
   const [showScroll, setShowScroll] = useState(false);
+  const location = useLocation();
+  const [scrolled, setScrolled] = useState(false);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
 
   useEffect(() => {
@@ -49,21 +65,25 @@ const Main = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  const isHomePage = location.pathname === "/";
   return (
     <>
-      <div ref={headerRef} className="bg-secondary text-white fixed top-0  w-full  z-50">
+      <div   ref={headerRef}
+      className={`fixed top-0 w-full z-50 text-white transition-colors duration-300 ${
+        isHomePage ? (scrolled ? "bg-[#18025b]" : "bg-transparent") : "bg-[#18025b]"
+
+      }`}  >
         <Header />
       </div>
-      <main ref={mainRef} className=" " style={{ marginTop: `${headerHeight}px` }} >
-        <Outlet />
+      <main ref={mainRef} className=" " style={{ marginTop: isHomePage ? "0px" : `${headerHeight}px` }} >
+        <Outlet context={{ headerHeight }} />
       </main>
       <div>
         <Footer />
       </div>
-
       {showScroll && (
-        <button onClick={scrollToTop} className="fixed bottom-5 right-5 bg-white  text-[#18025b] cursor-pointer border font-bold border-[#18025b] p-3 rounded-full shadow-lg transition-opacity hover:bg-opacity-80"
-        >
+        <button onClick={scrollToTop} className="fixed bottom-5 right-5 bg-white  text-[#18025b] cursor-pointer border font-bold border-[#18025b] p-3 rounded-full shadow-lg transition-opacity hover:bg-opacity-80" >
           <IoIosArrowUp className="md:text-xl" />
         </button>
       )}

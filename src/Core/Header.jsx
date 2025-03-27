@@ -123,15 +123,15 @@ const Header = () => {
 
   return (
     <>
-      <section className="bg-[#18025b]">
-        <div className="max-w-[90rem] mx-auto md:px-5 px-3 bg-[#18025b] ">
+      <section className="bg-transparent   ">
+        <div className="max-w-[90rem] mx-auto md:px-5 px-3   ">
           <div className="flex items-center justify-between   lg:gap-0  gap-5  ">
             <Link to="/">
-              <div className="  w-[200px]   ">
-                <div className="bg-white  text-center   ">
-                  <p className="    p-4 px-7 font-bold text-[#815cbf]" >Journal</p>
+              <div className="  w-[200px] ">
+                <div className="   text-center   bg-[#18025b]">
+                  <p className="    p-4 px-7 font-bold text-white  " >IJQCAI</p>
                   {/* <img className=" border p-2 font-bold text-[#3E8000]" src="/assets/Images/IJARTA-New.png" alt="" /> */}
-                </div>
+                 </div>
               </div>
             </Link>
             {/* <div className="md:block hidden xl:text-2xl text-xl   merry">
@@ -147,10 +147,9 @@ const Header = () => {
                           // onMouseEnter={() => handleMouseEnter(link.label)}
                           // onMouseLeave={handleMouseLeave}
                           onMouseEnter={() => window.innerWidth >= 768 && handleMouseEnter(link.label)}
-                          onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}
-                        >
+                          onMouseLeave={() => window.innerWidth >= 768 && handleMouseLeave()}  >
                           <Link to={link.to}
-                            className={`      p-2 flex   transition-all duration-300 ease-in-out    lg:text-base md:text-sm justify-center items-center    gap-2 ${isActive(link.to) || hoveredCategory === link.label ? '' : 'border-transparent'} `}
+                            className={`      p-2 flex   transition-all duration-300 ease-in-out  text-white   lg:text-base md:text-sm justify-center items-center    gap-2 ${isActive(link.to) || hoveredCategory === link.label ? '' : 'border-transparent'} `}
                             onClick={(e) => {
                               if (link.dropdown) {
                                 e.preventDefault();

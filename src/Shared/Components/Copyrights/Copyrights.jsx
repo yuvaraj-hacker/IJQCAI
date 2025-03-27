@@ -11,7 +11,7 @@ function Copyrights() {
                             <div className='flex flex-col gap-2'>
                                 <h2 className='text-[#18025b] font-bold merry md:text-lg underline underline-offset-2'>Copyright Transfer:</h2>
                                 <div className='flex   gap-3'>
-                                    <i className="fi fi-rr-angle-double-small-right     "></i>
+                                    <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]     "></i>
 
                                     <p className="text-justify  md:text-base text-sm">By signing this form, the author(s) transfer the copyright of the article to IJQCAI, effective if and when the article is accepted for publication. The copyright transfer covers the exclusive right to reproduce and distribute the article, including reprints, translations, photographic reproductions, microform, electronic form, or any other reproductions of similar nature.</p>
 

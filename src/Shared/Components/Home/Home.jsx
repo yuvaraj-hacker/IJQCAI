@@ -1,50 +1,63 @@
 import React from "react";
-import { FaCircle, FaDatabase, FaUnlockAlt, FaUserCheck } from "react-icons/fa";
-import Sidebar from "../../../Components/Sidebar/Sidebar";
-import { Link } from "react-router-dom";
+import { FaDatabase, FaUnlockAlt, FaUserCheck } from "react-icons/fa";
+import { Link, useOutletContext } from "react-router-dom";
 function Home() {
+
+  const { headerHeight } = useOutletContext();
   return (
+
+
     <>
-      <section className=" flex flex-col gap-5  md:pt-7 pt-5   ">
+      <section className=" flex flex-col gap-5       " >
         <div className="  relative">
           <section className="flex flex-col md:gap-7 gap-5">
-            <section className="flex justify-between flex-wrap md:flex-nowrap gap-5  max-w-[90rem] md:px-5 px-3 mx-auto">
-              <img className="mx-auto    w-96  " src="/assets/Images/ai.jpg" alt="" />
+            <div>
+              <section className="relative bg-[url('/assets/Images/ai.jpg')] bg-no-repeat bg-cover bg-center">
+                {/* Overlay (Only Covers Background) */}
+                <div className="absolute inset-0 bg-[#18025b] opacity-30 z-0"></div>
 
-              <div className="flex flex-col justify-evenly md:gap-0 gap-3">
-                <p className="text-justify md:text-3xl text-xl  underline underline-offset-4  ">
-                  International Journal of Quantum Computing and AI
-                </p>
-                <p className="text-justify">The International Journal of Quantum Computing and AI is a scholarly, peer-reviewed journal that focuses on cutting-edge research in quantum computing and artificial intelligence. It aims to provide a platform for researchers, academicians, and industry experts to publish innovative studies, theories, and applications that bridge the gap between quantum computing and AI. The journal covers topics such as quantum machine learning, quantum algorithms, AI-driven quantum computing applications, quantum neural networks, and the impact of quantum advancements on artificial intelligence.</p>
-                <a href="https://IJQCAI.com/IJQCAI/index.php/IJQCAI/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit" >
-                  <button className="md:p-3 p-2 border   rounded-full     bg-[#18025b] text-white duration-300 cursor-pointer w-[170px]">
-                    Submit Your Paper
-                  </button>
-                </a>
-              </div>
-            </section>
-            <section className="bg-[#815cbf] text-white">
-              <div className="max-w-[90rem] md:px-5 px-3 mx-auto py-4 flex flex-col gap-4 ">
-                <div className=' '>
-                  <h1 className="   text-center merry   font-semibold  lg:text-2xl   text-lg ">
-                    About
-                  </h1>
+                {/* Content (Ensure It Stays Above Overlay) */}
+                <section className="relative z-10 flex justify-between flex-wrap md:flex-nowrap gap-5 max-w-[90rem] md:px-5 px-3 mx-auto">
+                  {/* <img className="mx-auto w-96" src="/assets/Images/ai.jpg" alt="" /> */}
+                  <div className="flex flex-col justify-evenly md:gap-5 gap-3 text-white lg:py-20 md:py-10 md:pt-20 pt-20 py-10 lg:pt-36">
+                    <p className="text-justify md:text-3xl text-xl underline underline-offset-4">
+                      International Journal of Quantum Computing and AI
+                    </p>
+                    <p className="text-justify">
+                      The International Journal of Quantum Computing and AI is a scholarly, peer-reviewed journal that focuses on cutting-edge research in quantum computing and artificial intelligence. It aims to provide a platform for researchers, academicians, and industry experts to publish innovative studies, theories, and applications that bridge the gap between quantum computing and AI. The journal covers topics such as quantum machine learning, quantum algorithms, AI-driven quantum computing applications, quantum neural networks, and the impact of quantum advancements on artificial intelligence.
+                    </p>
+                    <a href="https://IJQCAI.com/IJQCAI/index.php/IJQCAI/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit">
+                      <button className="md:p-3 p-2 rounded-full bg-[#18025b] text-white duration-300 cursor-pointer w-[170px]">
+                        Submit Your Paper
+                      </button>
+                    </a>
+                  </div>
+                </section>
+              </section>
+
+              <section className=" ">
+                <div className="max-w-[90rem] md:px-5 px-3 mx-auto py-4 flex flex-col gap-4 ">
+                  <div className=' '>
+                    <h1 className="   text-center merry   font-semibold  lg:text-2xl   text-lg ">
+                      About
+                    </h1>
+                  </div>
+                  <p className="text-justify md:text-base text-sm">
+                    The International Journal of Quantum Computing and AI (IJQCAI) is a peer-reviewed, open-access journal
+                    focused on cutting-edge research in robotics, automation, and
+                    intelligent systems. We publish innovative studies in AI-driven
+                    robotics, industrial automation, human-robot interaction, and
+                    more, fostering collaboration between academia and industry. IJQCAI aims to foster collaboration between researchers, academicians, and industry professionals by providing a platform for sharing innovative ideas, groundbreaking research, and technological advancements. We welcome original research articles, review papers, and case studies that contribute to the evolving landscape of robotics and automation.
+                  </p>
+
+                  <Link to='/about' className="w-fit">
+                    <button className="md:p-3 p-2   w-[170px]      rounded-full     bg-[#18025b] text-white  duration-300 cursor-pointer">
+                      Read More
+                    </button>
+                  </Link>
                 </div>
-                <p className="text-justify md:text-base text-sm">
-                  The International Journal of Quantum Computing and AI (IJQCAI) is a peer-reviewed, open-access journal
-                  focused on cutting-edge research in robotics, automation, and
-                  intelligent systems. We publish innovative studies in AI-driven
-                  robotics, industrial automation, human-robot interaction, and
-                  more, fostering collaboration between academia and industry. IJQCAI aims to foster collaboration between researchers, academicians, and industry professionals by providing a platform for sharing innovative ideas, groundbreaking research, and technological advancements. We welcome original research articles, review papers, and case studies that contribute to the evolving landscape of robotics and automation.
-                </p>
-
-                <Link to='/about' className="w-fit">
-                  <button className="md:p-3 p-2   w-[170px]      rounded-full     bg-[#18025b] text-white  duration-300 cursor-pointer">
-                    Read More
-                  </button>
-                </Link>
-              </div>
-            </section>
+              </section>
+            </div>
             <section className="flex flex-col gap-4 max-w-[90rem] md:px-5 px-3 mx-auto  ">
               <div className=' '>
                 <h1 className="    text-center merry text-[#18025b]  font-semibold  lg:text-2xl   text-lg ">
