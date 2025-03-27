@@ -12,9 +12,9 @@ const HelmetComponent = ({ title }) => {
         <meta property="og:title" content="International Journal of Quantum Computing and AI (IJQCAI)" />
         <meta property="og:description" content="Discover cutting-edge research in Quantum Computing and AI with IJQCAI, a leading peer-reviewed, open-access journal exploring the future of technology." />
         <meta property="og:url" content="https://www.ijqcai.com/" />
-        <meta property="og:image" content="https://www.ijqcai.com/assets/Images/IJQCAI - C.png" />
+        <meta property="og:image" content="https://www.ijqcai.com/assets/Images/IJQCAIlog.png" />
         <link rel="canonical" href="https://www.ijqcai.com/" />
-        <link rel="icon" type="image/png" href="https://www.ijqcai.com/assets/Images/Fav - IJQCAI.png" />
+        <link rel="icon" type="image/png" href="https://www.ijqcai.com/assets/Images/Fav.png" />
     </Helmet>
 
     );
