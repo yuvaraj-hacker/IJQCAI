@@ -56,8 +56,8 @@ function Contact() {
                                             </button>
                                         </div>
                                     </form>
-                                    <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
-                                        <FaPhone  className="text-white mt-6  rotate-320 md:text-xl relative right-4  " />
+                                    <div className="bg-[#18025b] md:w-16 md:h-16 w-16 h-16 absolute md:top-1 top-1  -right-10 rotate-40  flex justify-center items-center ">
+                                        <FaPhone  className="text-white mt-6  rotate-320 md:text-xl text-sm relative right-4  " />
                                     </div>
                                 </div>
                                 <h3 className="mt-5 text-center text-sm md:text-lg">

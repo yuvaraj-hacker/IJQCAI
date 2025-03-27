@@ -15,7 +15,7 @@ const Main = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 40) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -45,18 +45,19 @@ const Main = () => {
     };
   }, []);
 
+
+
   useEffect(() => {
     if (headerRef.current) {
       setHeaderHeight(headerRef.current.offsetHeight);
     }
-
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setShowScroll(true);
       } else {
         setShowScroll(false);
       }
-    };  
+    };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);

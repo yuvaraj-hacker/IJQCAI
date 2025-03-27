@@ -22,7 +22,7 @@ function Home() {
                     <p className="text-justify md:text-base text-sm">
                       The International Journal of Quantum Computing and AI is a scholarly, peer-reviewed journal that focuses on cutting-edge research in quantum computing and artificial intelligence. It aims to provide a platform for researchers, academicians, and industry experts to publish innovative studies, theories, and applications that bridge the gap between quantum computing and AI. The journal covers topics such as quantum machine learning, quantum algorithms, AI-driven quantum computing applications, quantum neural networks, and the impact of quantum advancements on artificial intelligence.
                     </p>
-                    <a href="https://IJQCAI.com/IJQCAI/index.php/IJQCAI/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit">
+                    <a href="https://IJQCAI.com/IJQCAI/index.php/IJQCAI/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit md:mx-0 mx-auto">
                       <button className="md:p-3 p-2 rounded-full bg-white text-[#18025b]  border border-[#18025b] duration-300 cursor-pointer w-[170px]">
                         Submit Your Paper
                       </button>
@@ -46,7 +46,7 @@ function Home() {
                     more, fostering collaboration between academia and industry. IJQCAI aims to foster collaboration between researchers, academicians, and industry professionals by providing a platform for sharing innovative ideas, groundbreaking research, and technological advancements. We welcome original research articles, review papers, and case studies that contribute to the evolving landscape of robotics and automation.
                   </p>
 
-                  <Link to='/about' className="w-fit">
+                  <Link to='/about' className="w-fit md:mx-0 mx-auto">
                     <button className="md:p-3 p-2   w-[170px]      rounded-full bg-white      border border-[#18025b] text-[#18025b] duration-300 cursor-pointer">
                       Read More
                     </button>
@@ -73,7 +73,7 @@ function Home() {
                       </div>
 
                       <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
-                        <FaUnlockAlt className="text-white mt-6  rotate-320 md:text-xl relative right-4  " />
+                        <FaUnlockAlt className="text-white mt-6  rotate-320 md:text-xl text-sm relative right-4  " />
                       </div>
                     </div>
                   </Link>
@@ -90,7 +90,7 @@ function Home() {
                         </div>
                       </div>
                       <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
-                        <FaUserCheck className="text-white mt-6  rotate-320 md:text-xl relative right-4  " />
+                        <FaUserCheck className="text-white mt-6  rotate-320 md:text-xl  text-sm relative right-4  " />
                       </div>
                       {/* <div class="ribbon ribbon-top-right"> <span className="flex items-center justify-center gap-2">
                         <FaUserCheck className="text-white text-xl relative   right-4" />
@@ -110,7 +110,7 @@ function Home() {
                       </div>
 
                       <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
-                        <FaDatabase className="text-white mt-6  rotate-320 md:text-xl relative right-4  " />
+                        <FaDatabase className="text-white mt-6  rotate-320 md:text-xl  text-sm relative right-4  " />
                       </div>
                     </div>
                   </Link>
