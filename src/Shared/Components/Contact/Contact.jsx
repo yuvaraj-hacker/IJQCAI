@@ -59,14 +59,11 @@ function Contact() {
                                 <h3 className="mt-5 text-center text-sm md:text-lg">
                                     {" "}
                                     For any queries contact Email :{' '}
-                                    <a href="" className="text-blue-700 " >
-                                        editor@IJQCAI.com
-                                    </a>
+                                    <a href="" className="text-blue-700 " >  editor@ijqcai.com   </a>
                                 </h3>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
         </>
