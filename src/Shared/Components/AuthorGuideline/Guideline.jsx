@@ -13,7 +13,7 @@ function Guideline() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Quantum Computing and AI (IJQCAI) welcomes high-quality, original research contributions in the fields of robotics, automation, artificial intelligence, and related disciplines. Authors must adhere to the following guidelines when preparing and submitting their manuscripts.                            </p>
+                                The International Journal of Quantum Computing and AI welcomes high-quality, original research contributions in the fields of robotics, automation, artificial intelligence, and related disciplines. Authors must adhere to the following guidelines when preparing and submitting their manuscripts.                            </p>
                         </section>
                         <section className="flex flex-col gap-4">
                             <div className=' '>

@@ -15,7 +15,7 @@ function About() {
                   </h1>
                 </div>
                 <p className="text-justify md:text-base text-sm">
-                  The International Journal of Quantum Computing and AI (IJQCAI) is a peer-reviewed, open-access journal dedicated to advancing research at the intersection of quantum computing and artificial intelligence. It publishes high-quality studies on quantum machine learning, quantum algorithms, AI-driven quantum computing applications, and related interdisciplinary fields. IJQCAI aims to foster innovation, facilitate global collaboration, and bridge the gap between theoretical advancements and real-world applications in quantum AI.                </p>
+                  The International Journal of Quantum Computing and AI is a peer-reviewed, open-access journal dedicated to advancing research at the intersection of quantum computing and artificial intelligence. It publishes high-quality studies on quantum machine learning, quantum algorithms, AI-driven quantum computing applications, and related interdisciplinary fields. IJQCAI aims to foster innovation, facilitate global collaboration, and bridge the gap between theoretical advancements and real-world applications in quantum AI.                </p>
               </div>
               {/* <img className="mx-auto  border p-0.5 border-[#3e8000] " src="/assets/Images/aboutt.png" alt="" /> */}
             </section>
@@ -26,7 +26,7 @@ function About() {
                 </h1>
               </div>
               <p className="text-justify md:text-base text-sm">
-                The International Journal of Quantum Computing and AI (IJQCAI) is dedicated to publishing high-quality, peer-reviewed research at the intersection of Quantum Computing and Artificial Intelligence. The journal aims to foster innovation in quantum-based AI technologies and their real-world applications.              </p>
+                The International Journal of Quantum Computing and AI is dedicated to publishing high-quality, peer-reviewed research at the intersection of Quantum Computing and Artificial Intelligence. The journal aims to foster innovation in quantum-based AI technologies and their real-world applications.              </p>
               <div className='flex flex-col gap-2 md:text-base text-sm'>
                 <div className='flex items-center gap-2'>
                   <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]   flex items-center"></i>
@@ -96,7 +96,7 @@ function About() {
                 <h2 className='text-[#18025b] font-bold merry md:text-lg underline underline-offset-2'>Editorial Excellence</h2>
                 <div className='flex   gap-3'>
                   <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]  mt-1    "></i>
-                  <p className="text-justify  md:text-base text-sm">"The International Journal of Quantum Computing and AI (IJQCAI) upholds the highest standards of editorial excellence through a distinguished board of experts from leading research institutions and industry organizations worldwide. Committed to rigorous peer review and scientific integrity, our editorial team ensures that every published work meets the utmost quality in quantum computing and AI research."</p>
+                  <p className="text-justify  md:text-base text-sm">"The International Journal of Quantum Computing and AI upholds the highest standards of editorial excellence through a distinguished board of experts from leading research institutions and industry organizations worldwide. Committed to rigorous peer review and scientific integrity, our editorial team ensures that every published work meets the utmost quality in quantum computing and AI research."</p>
                 </div>
 
                 <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
@@ -118,7 +118,7 @@ function About() {
                 <h2 className='text-[#18025b] font-bold merry md:text-lg  underline underline-offset-2' >Publication Ethics</h2>
                 <div className='flex   gap-3'>
                   <i className="fi  fi-ss-dot-circle text-xs text-[#18025b]  mt-1   "></i>
-                  <p className="text-justify  md:text-base text-sm">The International Journal of Quantum Computing and AI (IJQCAI) upholds the highest ethical standards in academic publishing. We adhere to strict guidelines to ensure integrity, transparency, and fairness in all aspects of the publication process. Our policies prohibit plagiarism, data fabrication, and unethical research practices.</p>
+                  <p className="text-justify  md:text-base text-sm">The International Journal of Quantum Computing and AI upholds the highest ethical standards in academic publishing. We adhere to strict guidelines to ensure integrity, transparency, and fairness in all aspects of the publication process. Our policies prohibit plagiarism, data fabrication, and unethical research practices.</p>
                 </div>
                 <div className="bg-[#18025b] md:w-16 md:h-16 w-14 h-14 absolute md:top-1 top-0  -right-10 rotate-40  flex justify-center items-center ">
                   <FaBalanceScale className="text-white mt-6  rotate-320 md:text-xl relative right-4  " />

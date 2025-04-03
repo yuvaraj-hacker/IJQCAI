@@ -13,7 +13,7 @@ function PeerReview() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Quantum Computing and AI (IJQCAI) upholds the highest standards of academic excellence and research integrity through a rigorous peer-review process, ensuring the publication of high-quality, impactful research in quantum computing and AI.
+                                The International Journal of Quantum Computing and AI upholds the highest standards of academic excellence and research integrity through a rigorous peer-review process, ensuring the publication of high-quality, impactful research in quantum computing and AI.
                             </p>
                         </section>
 

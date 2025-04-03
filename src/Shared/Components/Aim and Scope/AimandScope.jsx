@@ -14,7 +14,7 @@ function AimandScope() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Quantum Computing and AI (IJQCAI) is a peer-reviewed, open-access journal dedicated to publishing high-quality research at the intersection of quantum computing and artificial intelligence. Our mission is to advance scientific knowledge, foster interdisciplinary collaboration, and bridge the gap between theoretical advancements and real-world applications in these rapidly evolving fields.
+                                The International Journal of Quantum Computing and AI is a peer-reviewed, open-access journal dedicated to publishing high-quality research at the intersection of quantum computing and artificial intelligence. Our mission is to advance scientific knowledge, foster interdisciplinary collaboration, and bridge the gap between theoretical advancements and real-world applications in these rapidly evolving fields.
                             </p>
                         </section>
 
@@ -25,7 +25,7 @@ function AimandScope() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Quantum Computing and AI (IJQCAI) aims to advance research in quantum computing and artificial intelligence by publishing high-quality, peer-reviewed articles. The journal provides a global platform for researchers, academics, and industry professionals to share cutting-edge innovations, theoretical advancements, and practical applications. IJQCAI fosters interdisciplinary collaboration, drives technological breakthroughs, and contributes to the evolution of next-generation computing and intelligent systems.
+                                The International Journal of Quantum Computing and AI aims to advance research in quantum computing and artificial intelligence by publishing high-quality, peer-reviewed articles. The journal provides a global platform for researchers, academics, and industry professionals to share cutting-edge innovations, theoretical advancements, and practical applications. IJQCAI fosters interdisciplinary collaboration, drives technological breakthroughs, and contributes to the evolution of next-generation computing and intelligent systems.
                             </p>
                         </section>
                         <section className="flex flex-col gap-4">

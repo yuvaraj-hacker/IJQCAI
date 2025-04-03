@@ -13,7 +13,7 @@ function ArticleProcess() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Quantum Computing and AI (IJQCAI) follows a structured article processing workflow to ensure timely and high-quality publication of research articles.                            </p>
+                                The International Journal of Quantum Computing and AI follows a structured article processing workflow to ensure timely and high-quality publication of research articles.                            </p>
                         </section>
 
                         <section className="flex flex-col gap-2">

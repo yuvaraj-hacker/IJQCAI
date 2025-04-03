@@ -10,15 +10,16 @@ const Footer = () => {
             <Link to='/'>
               {/* <p className=" font-bold md:text-2xl ">IJQCAI</p> */}
               <img className='  w-40 md:mx-0   mx-auto' src="/assets/Images/IJQCAI.png" alt="" />
-            </Link>
+
+       </Link>
             <div className='flex flex-col justify-center md:items-start items-center md:text-left lg:text-base text-sm'>
               <div className='flex gap-3 items-center'>
                 <FaEnvelope />
-                <p><a href="" className=" ">editorIJQCAI@gmail.com</a></p>
+                <p><a href="" className=" ">editor@ijqcai.com</a></p>
               </div>
               <div className='flex gap-3 items-center'>
                 <FaGlobe />
-                <p><a href="" className=" ">www.IJQCAI.com</a></p>
+                <p><a href="" className=" ">www.ijqcai.com</a></p>
               </div>
               <div className=' p-3 '>
                 <img className='md:ml-auto md:mx-0 mx-auto w-24   block' src="/assets/Images/ojs_brand.png" alt="ojs" />

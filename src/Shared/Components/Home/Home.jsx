@@ -22,7 +22,7 @@ function Home() {
                     <p className="text-justify md:text-base text-sm">
                       The International Journal of Quantum Computing and AI is a scholarly, peer-reviewed journal that focuses on cutting-edge research in quantum computing and artificial intelligence. It aims to provide a platform for researchers, academicians, and industry experts to publish innovative studies, theories, and applications that bridge the gap between quantum computing and AI. The journal covers topics such as quantum machine learning, quantum algorithms, AI-driven quantum computing applications, quantum neural networks, and the impact of quantum advancements on artificial intelligence.
                     </p>
-                    <a href="https://IJQCAI.com/IJQCAI/index.php/IJQCAI/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit md:mx-0 mx-auto">
+                    <a href="https://ijqcai.com/Ijqcai/index.php/ijqcai/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit md:mx-0 mx-auto">
                       <button className="md:p-3 p-2 rounded-full bg-white text-[#18025b]  border border-[#18025b] duration-300 cursor-pointer w-[170px]">
                         Submit Your Paper
                       </button>
@@ -39,7 +39,7 @@ function Home() {
                     </h1>
                   </div>
                   <p className="text-justify md:text-base text-sm">
-                    The International Journal of Quantum Computing and AI (IJQCAI) is a peer-reviewed, open-access journal
+                    The International Journal of Quantum Computing and AI is a peer-reviewed, open-access journal
                     focused on cutting-edge research in robotics, automation, and
                     intelligent systems. We publish innovative studies in AI-driven
                     robotics, industrial automation, human-robot interaction, and
@@ -68,7 +68,7 @@ function Home() {
                         <h2 className="text-[#18025b] font-bold merry md:text-lg underline underline-offset-2">Open Access</h2>
                         <div className="flex gap-4  ">
                           <i class="fi fi-ss-dot-circle flex  mt-1 text-[#18025b]"></i>
-                          <p className=" md:text-base text-sm">The International Journal of Quantum Computing and AI (IJQCAI) is a fully open-access journal, providing unrestricted access to cutting-edge research in quantum computing and AI.  </p>
+                          <p className=" md:text-base text-sm">The International Journal of Quantum Computing and AI is a fully open-access journal, providing unrestricted access to cutting-edge research in quantum computing and AI.  </p>
                         </div>
                       </div>
 

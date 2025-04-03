@@ -13,7 +13,7 @@ function Abstracting() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Quantum Computing and AI (IJQCAI) is committed to ensuring the visibility and accessibility of published research. Our journal is indexed in various reputed databases to enhance the reach and impact of our articles.
+                                The International Journal of Quantum Computing and AI is committed to ensuring the visibility and accessibility of published research. Our journal is indexed in various reputed databases to enhance the reach and impact of our articles.
                             </p>
                         </section>
 
